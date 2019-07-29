@@ -1,0 +1,38 @@
+.button{
+    -fx-background-color: linear-gradient(from 25% 25% to 30% 70%, #2a52be, #ffffff);
+}
+.button{
+    -fx-text-fill: #2a52be;
+}
+
+.button:hover{
+    -fx-text-fill: #22be12;
+}
+
+.text-field{
+    -fx-background-color: linear-gradient(#ffffff 0%, #CECEFF 50%, #2a52be 100%);
+}
+
+.text-field{
+    -fx-text-fill: #2a52be;
+}
+
+.text-field :hover{
+    -fx-text-fill: #1fbe82;
+}
+
+.list-view {
+    -fx-background-image: url("/JavaLevelTwo/Lesson_4Four/HomeWork/css/java.jpeg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 400 400;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.list-view :hover{
+    -fx-background-image: url("/JavaLevelTwo/Lesson_4Four/HomeWork/css/java.jpeg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 400 400;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}

@@ -1,0 +1,83 @@
+#btn {
+    -fx-border-color: #0066ff;
+    -fx-border-width: 2;
+    -fx-background-image: url(../img/textArea.jpg) ;
+    -fx-text-fill: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+
+}
+
+#btn:hover {
+    -fx-text-fill: red;
+}
+
+#textArea .content {
+    -fx-background-image: url(../img/ttextArea2.jpg);
+}
+
+#textArea {
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+
+#textField {
+    -fx-background-image: url(../img/textField.jpg);
+    -fx-background-color: #3399cc;
+    -fx-border-color: #330066;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+
+#pane {
+    -fx-background-image: url(../img/textArea.jpg);
+    -fx-border-color: black;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+
+#AnchorPane {
+    -fx-background-image: url(../img/textArea.jpg);
+}
+#labelAvatar {
+    -fx-text-fill: white;
+}
+
+#btnNewContact {
+    -fx-background-image: url(../img/textArea.jpg);
+    -fx-text-fill: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+
+#btnStatus {
+    -fx-background-image: url(../img/textArea.jpg);
+    -fx-text-fill: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+
+#btnSetting {
+    -fx-background-image: url(../img/textArea.jpg);
+    -fx-text-fill: white;
+    -fx-background-radius: 5.0;
+    -fx-border-radius: 5.0;
+}
+#btnNewContact:hover {
+    -fx-text-fill: red;
+}
+
+#btnStatus:hover {
+    -fx-text-fill: red;
+}
+
+#btnSetting:hover {
+    -fx-text-fill: red;
+}
+.label:hover {
+    -fx-text-fill: white;
+}
