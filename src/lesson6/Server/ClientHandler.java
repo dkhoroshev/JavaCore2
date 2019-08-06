@@ -1,4 +1,4 @@
-package Lesson_6.Server;
+package lesson6.Server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -49,6 +49,7 @@ public class ClientHandler {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
+                        server.unsubsClient(ClientHandler.this);
                     }
                 }
             }).start();

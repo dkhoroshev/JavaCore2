@@ -1,4 +1,4 @@
-package Lesson_6.Server;
+package lesson6.Server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -23,7 +23,7 @@ public class Server {
 
             while (true) {
                 socket = server.accept();
-                clients.add(new ClientHandler(this, socket));
+                subsClient(new ClientHandler(this, socket));
             }
 
         } catch (IOException e) {
@@ -47,5 +47,11 @@ public class Server {
         for (ClientHandler o: clients) {
             o.sendMsg(msg);
         }
+    }
+    public void subsClient(ClientHandler client){
+        clients.add(client);
+    }
+    public void unsubsClient(ClientHandler client){
+        clients.remove(client);
     }
 }
