@@ -1,4 +1,4 @@
-package Lesson_6.Client;
+package lesson6.Client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/Lesson_6/Client/sample.fxml"));
         primaryStage.setTitle("chat 2k19");
-        Scene scene = new Scene(root, 300, 275);
+        Scene scene = new Scene(root, 350, 370);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
